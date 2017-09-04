@@ -1,16 +1,12 @@
-# SimpleCliTools
+# Python Script: SimpleCliTools
 
 ## Written By: Benjamin P. Trachtenberg 
+### If you have any questions e-mail me
 
 ### Contact Information:  e_ben_75-python@yahoo.com
 
 ### LinkedIn: [Ben Trachtenberg](https://www.linkedin.com/in/ben-trachtenberg-3a78496)
-
-### Requirements
-
-* [cvblib](https://github.com/btr1975/cvblib)
-* [difflibhelper](https://github.com/btr1975/difflibhelper)
-* XlsxWriter==0.9.6
+### Docker Hub: [Docker Hub](https://hub.docker.com/r/btr1975)
 
 ### About
 
