@@ -99,3 +99,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# No tilde endings
+*~
+
+# No Jet Brains
+.idea/
+
+# No logs
+Logs/
+

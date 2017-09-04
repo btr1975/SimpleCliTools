@@ -1,0 +1,4 @@
+XlsxWriter==0.9.6
+persistentdatatools==2.2.7
+ipaddresstools==1.2.6
+difflibhelper==1.0.5
