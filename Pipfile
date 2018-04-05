@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+XlsxWriter = "==0.9.6"
+persistentdatatools = "==2.2.8"
+ipaddresstools = "==1.2.8"
+difflibhelper = "==1.0.6"
+
+[requires]
+python_version = "3.5"

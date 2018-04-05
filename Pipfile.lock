@@ -1,0 +1,50 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "a6d03347c7a272c894626ca73f9a78d386e69cc50640d09bef6026f87962794c"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.5"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "difflibhelper": {
+            "hashes": [
+                "sha256:cbe902f7de8a42eb3eb8dab5b1094aeb3ea4255351f91c814e60689a3fbfed47"
+            ],
+            "index": "pypi",
+            "version": "==1.0.6"
+        },
+        "ipaddresstools": {
+            "hashes": [
+                "sha256:c89a00fe175cfa7993b5982f56285c0eb5a043761e9b57bc7bd9023b54dc886a"
+            ],
+            "index": "pypi",
+            "version": "==1.2.8"
+        },
+        "persistentdatatools": {
+            "hashes": [
+                "sha256:dae160e78c43ee06ac486f38c00ebf13c2670529974233ff6b9395376f4aab4d"
+            ],
+            "index": "pypi",
+            "version": "==2.2.8"
+        },
+        "xlsxwriter": {
+            "hashes": [
+                "sha256:b51c00a1d6572ba35e8c06e0af8dd14c34977ef0b5022c3d85d5f1de9f1220c3",
+                "sha256:feaa2699e82a09653e1b47a25f9541194e21f6e78db35bed5c7006f8b59e7a88"
+            ],
+            "index": "pypi",
+            "version": "==0.9.6"
+        }
+    },
+    "develop": {}
+}

@@ -71,6 +71,7 @@ if __name__ == '__main__':
     arg_parser_file_diff.set_defaults(which_sub='filediff')
     arg_parser_file_diff.add_argument('filename_a', help='The "A" Side file name you saved')
     arg_parser_file_diff.add_argument('filename_b', help='The "B" Side file name you saved')
+    arg_parser_file_diff.add_argument('-f', '--format', help='Formats are html, and xlsx', required=True)
     arg_parser_file_diff.add_argument('-o', '--oneoff', help='Used in case A CEF table changes to a CIDR '
                                                              'notation next hop , make the CDIR notation file File B',
                                       action='store_true')
@@ -154,7 +155,14 @@ if __name__ == '__main__':
             mod.scripts.acl_diff.acl_diff(args.filename_a, args.filename_b, args.output_filename, INPUT_DIR, OUTPUT_DIR)
 
         elif args.which_sub == 'filediff':
-            mod.scripts.file_diff(args.filename_a, args.filename_b, INPUT_DIR, OUTPUT_DIR, args.oneoff)
+            formats = ('html', 'xlsx')
+            if args.format not in formats:
+                LOGGER.critical('Format entered {}'.format(args.format))
+                arg_parser.print_help()
+                raise ValueError('The options for file format are html, and xlsx!!')
+
+            else:
+                mod.scripts.file_diff(args.filename_a, args.filename_b, INPUT_DIR, OUTPUT_DIR, args.oneoff, args.format)
 
         elif args.which_sub == 'folderdiff':
             if not pdt.verify_directory(args.folder_a, INPUT_DIR, directory_create=False) or not \
