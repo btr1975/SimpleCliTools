@@ -7,6 +7,7 @@
 
 ### LinkedIn: [Ben Trachtenberg](https://www.linkedin.com/in/ben-trachtenberg-3a78496)
 ### Docker Hub: [Docker Hub](https://hub.docker.com/r/btr1975)
+### Ansible Galaxy: [Ansible Galaxy](https://galaxy.ansible.com/btr1975/)
 
 ### About
 
@@ -25,7 +26,8 @@ This script is various tools, to compare, some Cisco Network Configurations
     * Takes a standard ACL, and converts it to a Prefix-List for filtering routes on a routing protocol.
 
 4. A line by line file differ
-    * Takes 2 text files, and outputs a Excel spreadsheet with a highlighted diff.
+    * Takes 2 text files, and outputs a Excel spreadsheet, or html table with a highlighted diff.  The html
+      version is a more "smart" differ.
 
 5. A config splitter
     * Takes a show run, and splits the config for seeing specific sections.
