@@ -109,3 +109,8 @@ ENV/
 # No logs
 Logs/
 
+# No Inputs
+Input/
+
+# No Outputs
+Output/
